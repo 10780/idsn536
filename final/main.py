@@ -18,8 +18,8 @@ WIFI_SSID = 'your_ssid'
 WIFI_PASSWORD = 'your_password'
 
 # Server URLs
-UPLOAD_URL = 'http://example.com/upload'
-DOWNLOAD_URL = 'http://example.com/download'
+UPLOAD_URL = 'http://192.168.1.100:8000/upload' # Replace with your server's URL
+DOWNLOAD_URL = 'http://192.168.1.100:8000/download' # Replace with your server's URL
 
 # Connect to Wi-Fi
 station = network.WLAN(network.STA_IF)
